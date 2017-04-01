@@ -1,0 +1,189 @@
+/*Body*/
+
+body{
+    width: 100%;
+    background-color: #EFDDCA;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: #2E2E2E;
+
+-webkit-font-smoothing: antianalised;
+-webkit-overflow-scrolling: touch;
+ 
+}
+
+h1, h2, h3, h4, h5, h6{
+
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+
+/*Hrefs*/
+a{
+    color: #F85c37;
+}
+a:hover a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*Header*/
+.navbar{
+    height: 62px;
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-inverse{
+    background: #E3BDB8;
+    border-color: #E3BDB8;
+}
+
+
+#hrefs{
+    margin: auto;
+}
+
+
+.navbar-nav > li{
+    margin-left: 10px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+    background-color: #474747;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #737373;
+}
+.navbar-collapse{
+    background-color: #E3BDB8;
+    opacity: 0.8; 
+}
+
+
+
+
+
+/*Carousel*/
+#carousel-example-generic{
+
+    position: relative;
+    margin-top: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navigation*/
+
+#navLeftButtons{
+    position: relative;
+    margin-top: 48px;
+    
+}
+
+
+.btn-group-vertical > :first-child:not(:last-child).btn-group > :last-child.btn, .btn-group-vertical > :first-child:not(:last-child).btn-group > .dropdown-toggle{
+    border-radius: 4px;
+}
+
+.btn-default.focus, .btn-default:focus{
+    background-color: #E3BDB8;
+}
+
+.btn-default{
+    background-color: #E3BDB8;
+}
+
+.btn-default:hover{
+    background-color: #ccc;
+    color: #333;
+    border-color: #333;
+}
+
+#navLeftButton2{
+    margin-top: 20px;
+    
+
+}
+
+#navLeftButton3{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+#navRightButtons{
+    position: relative;
+    margin-top: 48px;
+    float: right;
+   
+}
+
+#SecondRow{
+    position: static;
+}
+
+
+
+
+
+
+
+/*Main body*/
+#asdf{
+    position: relative;
+    background-color: #fff;
+    height: 179px;
+    margin-top: 48px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#mainTextInBottom{
+    position: relative;
+    background-color: #fff;
+    height: 1000px;
+}
